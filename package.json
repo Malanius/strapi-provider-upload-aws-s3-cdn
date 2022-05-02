@@ -1,0 +1,39 @@
+{
+  "name": "@malanius/strapi-provider-upload-aws-s3-cdn",
+  "version": "0.0.1",
+  "description": "AWS S3 provider for strapi upload to private bucket behind CDN.",
+  "keywords": [
+    "strapi",
+    "upload",
+    "aws",
+    "s3",
+    "cdn"
+  ],
+  "homepage": "https://github.com/malanius/strapi-provider-upload-aws-s3-cdn",
+  "bugs": {
+    "url": "https://github.com/malanius/strapi-provider-upload-aws-s3-cdn/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/malanius/strapi-provider-upload-aws-s3-cdn.git"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "author": {
+    "name": "Malanius Privierre",
+    "email": "malaniusprivierre@gmail.com"
+  },
+  "main": "./lib",
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "dependencies": {
+    "aws-sdk": "2.1125.0"
+  },
+  "engines": {
+    "node": ">=12.22.0 <=16.x.x",
+    "npm": ">=6.0.0"
+  }
+}
